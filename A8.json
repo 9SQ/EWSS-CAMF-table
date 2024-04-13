@@ -1,0 +1,11 @@
+{
+    "field ": "A8",
+    "description": "Hazard duration",
+    "bits": 2,
+    "code": [
+        {"bin": "00", "dec": 0, "param": "Unknown"},
+        {"bin": "01", "dec": 1, "param": "Duration < 6h"},
+        {"bin": "10", "dec": 2, "param": "6h <= Duration < 12h"},
+        {"bin": "11", "dec": 3, "param": "12h <= Duration < 24h"}
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "field ": "A10",
+    "description": "Version of library",
+    "bits": 3,
+    "code": [
+        {"bin": "000", "dec": 0, "param": "#1"},
+        {"bin": "001", "dec": 1, "param": "#2"},
+        {"bin": "010", "dec": 2, "param": "#3"},
+        {"bin": "011", "dec": 3, "param": "#4"},
+        {"bin": "100", "dec": 3, "param": "#5"},
+        {"bin": "101", "dec": 3, "param": "#6"},
+        {"bin": "110", "dec": 3, "param": "#7"},
+        {"bin": "111", "dec": 3, "param": "#8"}
+    ]
+}

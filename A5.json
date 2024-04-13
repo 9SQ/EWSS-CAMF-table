@@ -1,0 +1,11 @@
+{
+    "field ": "A5",
+    "description": "Severity",
+    "bits": 2,
+    "code": [
+        {"bin": "00", "dec": 0, "param": "Unknown"},
+        {"bin": "01", "dec": 1, "param": "Moderate - Possible threat to life or property"},
+        {"bin": "10", "dec": 2, "param": "Severe - Significant threat to life or property"},
+        {"bin": "11", "dec": 3, "param": "Extreme - Extraordinary threat to life or property"}
+    ]
+}

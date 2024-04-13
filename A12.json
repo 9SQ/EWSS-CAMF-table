@@ -1,0 +1,9 @@
+{
+    "field ": "A12",
+    "description": "Ellipse centre latitude",
+    "bits": 16,
+    "range": [
+        {"bin": "0000000000000000", "dec": 0, "param": "-90.000"},
+        {"bin": "1111111111111111", "dec": 65535, "param": "90.000"}
+    ]
+}
