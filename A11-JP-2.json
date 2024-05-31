@@ -11,7 +11,7 @@
         {"bin": "00000101", "dec": 5, "param": "Water area"},
         {"bin": "00000110", "dec": 6, "param": "Building where chemicals are handled, such as a factory"},
         {"bin": "00000111", "dec": 7, "param": "Cliffs and areas at risk of collapse"},
-        {"bin": "01111111", "dec": 8, "param": "Take the best immediate action to save your life."},
-        {"bin": "11111111", "dec": 9, "param": "Take the best immediate action to save your life."}
+        {"bin": "01111111", "dec": 127, "param": "Take the best immediate action to save your life."},
+        {"bin": "11111111", "dec": 128, "param": "Take the best immediate action to save your life."}
     ]
 }
