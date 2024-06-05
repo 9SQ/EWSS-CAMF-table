@@ -1,0 +1,10 @@
+{
+    "field ": ["EX8"],
+    "description": "Target Area Code List Type",
+    "bits": 1,
+    "type": "byte",
+    "code": [
+        {"bin": "0", "dec": 0, "param": {"en": "Prefecture code", "ja": "都道府県コード"}},
+        {"bin": "1", "dec": 1, "param": {"en": "Municipality code", "ja": "地方自治体コード"}}
+    ]
+}

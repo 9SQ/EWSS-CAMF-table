@@ -1,5 +1,5 @@
 {
-    "field ": ["A14", "A15"],
+    "field ": ["A14", "A15", "EX5", "EX6"],
     "description": "Ellipse semi-major axis (LM)/Ellipse semi-minor axis (Lm)",
     "bits": 5,
     "type": "byte",

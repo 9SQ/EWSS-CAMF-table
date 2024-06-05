@@ -1,0 +1,10 @@
+{
+    "field ": ["EX2"],
+    "description": "Evacuate Direction Type",
+    "bits": 1,
+    "type": "byte",
+    "code": [
+        {"bin": "0", "dec": 0, "param": {"en": "Leave the additional target area range.", "ja": ""}},
+        {"bin": "1", "dec": 1, "param": {"en": "Head to the additional target area range.", "ja": ""}}
+    ]
+}

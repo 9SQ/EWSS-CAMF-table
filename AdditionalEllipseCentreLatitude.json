@@ -1,0 +1,16 @@
+{
+    "field ": ["EX3"],
+    "description": "Additional Ellipse Centre Latitude",
+    "bits": 17,
+    "type": "uint32",
+    "calc": {
+        "formula": "(-90.0 + (180.0 / (2^17 - 1.0)) * x",
+        "variable": "x",
+        "format": "%.3f",
+        "rounded_off": 4
+    },
+    "range": [
+        {"bin": "00000000000000000", "dec": 0, "param": -90.000},
+        {"bin": "11111111111111111", "dec": 131071, "param": 90.000}
+    ]
+}

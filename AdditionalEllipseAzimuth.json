@@ -1,0 +1,16 @@
+{
+    "field ": ["EX7"],
+    "description": "Additional Ellipse Azimuth",
+    "bits": 7,
+    "type": "byte",
+    "calc": {
+        "formula": "(-90.0 + (180.0 / 2^7)) * x",
+        "variable": "x",
+        "format": "%.2f",
+        "rounded_off": 3
+    },
+    "range": [
+        {"bin": "0000000", "dec": 0, "param": -90.00},
+        {"bin": "1111111", "dec": 127, "param": 90.00}
+    ]
+}
