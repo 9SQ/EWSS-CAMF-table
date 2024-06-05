@@ -1,7 +1,8 @@
 {
-    "field ": "A14",
-    "description": "Ellipse semi-major axis (LM)",
+    "field ": ["A14", "A15"],
+    "description": "Ellipse semi-major axis (LM)/Ellipse semi-minor axis (Lm)",
     "bits": 5,
+    "type": "byte",
     "code": [
         {"bin": "00000", "dec": 0, "param": 0.216},
         {"bin": "00001", "dec": 1, "param": 0.292},

@@ -1,0 +1,12 @@
+{
+    "field ": ["A5"],
+    "description": "Severity",
+    "bits": 2,
+    "type": "byte",
+    "code": [
+        {"bin": "00", "dec": 0, "param": {"en": "Unknown", "ja": ""}},
+        {"bin": "01", "dec": 1, "param": {"en": "Moderate - Possible threat to life or property", "ja": ""}},
+        {"bin": "10", "dec": 2, "param": {"en": "Severe - Significant threat to life or property", "ja": ""}},
+        {"bin": "11", "dec": 3, "param": {"en": "Extreme - Extraordinary threat to life or property", "ja": ""}}
+    ]
+}

@@ -1,7 +1,8 @@
 {
-    "field ": "A16",
+    "field ": ["A16"],
     "description": "Ellipse azimuth angle",
     "bits": 6,
+    "type": "byte",
     "code": [
         {"bin": "000000",  "dec": 0, "param": -90.00},
         {"bin": "000001",  "dec": 1, "param": -87.19},

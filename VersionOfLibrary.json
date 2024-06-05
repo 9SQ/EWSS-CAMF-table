@@ -1,7 +1,8 @@
 {
-    "field ": "A10",
+    "field ": ["A10"],
     "description": "Version of library",
     "bits": 3,
+    "type": "byte",
     "code": [
         {"bin": "000", "dec": 0, "param": "#1"},
         {"bin": "001", "dec": 1, "param": "#2"},

@@ -1,0 +1,10 @@
+{
+    "field ": ["A11"],
+    "description": "Guidance to react library (International)",
+    "bits": 10,
+    "type": "uint16",
+    "files": {
+        "0": "GuidanceToReactLibrary_IC-A.json",
+        "1": "GuidanceToReactLibrary_IC-B.json"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "field ": ["A17"],
+    "description": "Main Subject for Specific Settings",
+    "bits": 2,
+    "type": "byte",
+    "code": [
+        {"bin": "00", "dec": 0, "param": {"en": "B1 - Improved Resolution of Main Ellipse", "ja": ""}},
+        {"bin": "01", "dec": 1, "param": {"en": "B2 - Position of the Centre of the Hazard", "ja": ""}},
+        {"bin": "10", "dec": 2, "param": {"en": "B3 - Secondary Ellipse Definition", "ja": ""}},
+        {"bin": "11", "dec": 3, "param": {"en": "B4 - Quantitative and detailed information about the Hazard", "ja": ""}}
+    ]
+}

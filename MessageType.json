@@ -1,0 +1,12 @@
+{
+    "field ": ["A1"],
+    "description": "Message type",
+    "bits": 2,
+    "type": "byte",
+    "code": [
+        {"bin": "00", "dec": 0, "param": {"en": "Test", "ja": "試験/訓練"}},
+        {"bin": "01", "dec": 1, "param": {"en": "Alert", "ja": "発表"}},
+        {"bin": "10", "dec": 2, "param": {"en": "Update", "ja": "更新"}},
+        {"bin": "11", "dec": 3, "param": {"en": "All Clear", "ja": "解除"}}
+    ]
+}

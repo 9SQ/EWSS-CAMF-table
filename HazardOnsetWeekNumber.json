@@ -1,0 +1,10 @@
+{
+    "field ": ["A6"],
+    "description": "Hazard onset, week number",
+    "bits": 1,
+    "type": "byte",
+    "code": [
+        {"bin": "0", "dec": 0, "param": {"en": "Current", "ja": "今週"}},
+        {"bin": "1", "dec": 1, "param": {"en": "Next", "ja": "翌週"}}
+    ]
+}

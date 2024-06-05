@@ -1,0 +1,12 @@
+{
+    "field ": ["A3"],
+    "description": "Provider identifier",
+    "bits": 5,
+    "type": "byte",
+    "code": [
+        {"bin": "00001", "dec": 1, "param": {"en": "Foundation for MultiMedia Communications (FMMC)", "ja": "マルチメディア振興センター"}},
+        {"bin": "00010", "dec": 2, "param": {"en": "Fire and Disaster Management Agency (FDMA)", "ja": "総務省消防庁"}},
+        {"bin": "00011", "dec": 3, "param": {"en": "Related Ministries", "ja": "関係省庁"}},
+        {"bin": "00100", "dec": 4, "param": {"en": "Municipality", "ja": "地方自治体"}}
+    ]
+}

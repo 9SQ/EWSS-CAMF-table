@@ -1,0 +1,10 @@
+{
+    "field ": ["A9"],
+    "description": "Selection of Guidance to react library",
+    "bits": 1,
+    "type": "byte",
+    "code": [
+        {"bin": "0", "dec": 0, "param": {"en": "International Guidance Library", "ja": ""}},
+        {"bin": "1", "dec": 1, "param": {"en": "Country/Region Guidance Library", "ja": ""}}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "field ": ["A7"],
+    "description": "Hazard onset, time of the week",
+    "bits": 14,
+    "type": "uint16",
+    "range": [
+        {"bin": "00000000000001", "dec": 1, "param": {"en": "MONDAY - 00:00 AM", "ja": "月曜日 - 午前 00:00"}},
+        {"bin": "10011101100000", "dec": 10080, "param": {"en": "SUNDAY - 11:59 PM", "ja": "日曜日 - 午後 11:59"}}
+    ]
+}
