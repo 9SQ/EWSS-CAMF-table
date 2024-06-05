@@ -1,0 +1,186 @@
+[
+    {
+        "field": "A1",
+        "description": "Message type",
+        "bits": 2,
+        "type": "byte",
+        "file": "MessageType.json"
+    },
+    {
+        "field": "A2",
+        "description": "Country / Region name",
+        "bits": 9,
+        "type": "uint16",
+        "file": "CountryRegionName.json"
+    },
+    {
+        "field": "A3",
+        "description": "Provider identifier",
+        "bits": 5,
+        "type": "byte",
+        "file": "ProviderIdentifier.json"
+    },
+    {
+        "field": "A4",
+        "description": "Hazard category and type",
+        "bits": 7,
+        "type": "byte",
+        "file": "HazardCategoryAndType.json"
+    },
+    {
+        "field": "A5",
+        "description": "Severity",
+        "bits": 2,
+        "type": "byte",
+        "file": "Severity.json"
+    },
+    {
+        "field": "A6",
+        "description": "Hazard onset, week number",
+        "bits": 1,
+        "type": "byte",
+        "file": "HazardOnsetWeekNumber.json"
+    },
+    {
+        "field": "A7",
+        "description": "Hazard onset, time of the week",
+        "bits": 14,
+        "type": "uint16",
+        "file": "HazardOnsetTimeOfTheWeek.json"
+    },
+    {
+        "field": "A8",
+        "description": "Hazard duration",
+        "bits": 2,
+        "type": "byte",
+        "file": "HazardDuration.json"
+    },
+    {
+        "field": "A9",
+        "description": "Selection of Guidance to react library",
+        "bits": 1,
+        "type": "byte",
+        "file": "SelectionOfGuidanceToReactLibrary.json"
+    },
+    {
+        "field": "A10",
+        "description": "Version of library",
+        "bits": 3,
+        "type": "byte",
+        "file": "VersionOfLibrary.json"
+    },
+    {
+        "field": "A11",
+        "description": "Guidance to react library",
+        "bits": 10,
+        "type": "uint16",
+        "if": "A9",
+        "files": {"0": "GuidanceToReactLibrary_IC.json", "1": "GuidanceToReactLibrary_JP.json"}
+    },
+    {
+        "field": "A12",
+        "description": "Ellipse centre latitude",
+        "bits": 16,
+        "type": "uint16",
+        "file": "EllipseCentreLatitude.json"
+    },
+    {
+        "field": "A13",
+        "description": "Ellipse centre longitude",
+        "bits": 17,
+        "type": "uint32",
+        "file": "EllipseCentreLongitude.json"
+    },
+    {
+        "field": "A14",
+        "description": "Ellipse semi-major axis (LM)",
+        "bits": 5,
+        "type": "byte",
+        "file": "EllipseSemiMajorMinorAxis.json"
+    },
+    {
+        "field": "A15",
+        "description": "Ellipse semi-minor axis (Lm)",
+        "bits": 5,
+        "type": "byte",
+        "file": "EllipseSemiMajorMinorAxis.json"
+    },
+    {
+        "field": "A16",
+        "description": "Ellipse azimuth angle",
+        "bits": 6,
+        "type": "byte",
+        "file": "EllipseAzimuthAngle.json"
+    },
+    {
+        "field": "A17",
+        "description": "Main Subject for Specific Settings",
+        "bits": 2,
+        "type": "byte",
+        "file": "MainSubjectForSpecificSettings.json"
+    },
+    {
+        "field": "EX1",
+        "description": "Target Area Code",
+        "bits": 16,
+        "type": "uint16",
+        "file": "MunicipalityCode.json"
+    },
+    {
+        "field": "EX2",
+        "description": "Evacuate Direction Type",
+        "bits": 1,
+        "type": "byte",
+        "file": "EvacuateDirectionType.json"
+    },
+    {
+        "field": "EX3",
+        "description": "Additional Ellipse Centre Latitude",
+        "bits": 17,
+        "type": "uint32",
+        "file": "AdditionalEllipseCentreLatitude.json"
+    },
+    {
+        "field": "EX4",
+        "description": "Additional Ellipse Centre Longitude",
+        "bits": 17,
+        "type": "uint32",
+        "file": "AdditionalEllipseCentreLongitude.json"
+    },
+    {
+        "field": "EX5",
+        "description": "Additional Ellipse Semi-Major Axis",
+        "bits": 5,
+        "type": "byte",
+        "file": "EllipseSemiMajorMinorAxis.json"
+    },
+    {
+        "field": "EX6",
+        "description": "Additional Ellipse Semi-Minor Axis",
+        "bits": 5,
+        "type": "byte",
+        "file": "EllipseSemiMajorMinorAxis.json"
+    },
+    {
+        "field": "EX7",
+        "description": "Additional Ellipse Azimuth",
+        "bits": 7,
+        "type": "byte",
+        "file": "AdditionalEllipseAzimuth.json"
+    },
+    {
+        "field": "EX8",
+        "description": "Target Area Code List Type",
+        "bits": 1,
+        "type": "byte",
+        "file": "TargetAreaCodeListType.json"
+    },
+    {
+        "field": "EX9",
+        "description": "Target Area Code List",
+        "bits": 64,
+        "type": "uint64",
+        "if": "EX8",
+        "files": {"0": "PrefectureCode.json", "1": "MunicipalityCode.json"}
+    }
+]
